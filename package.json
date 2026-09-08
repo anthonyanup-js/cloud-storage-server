@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "start":"pm2 start server.js --name file-uploder-server -i -1"
   },
   "keywords": [],
   "author": "",
